@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriales</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/tutoriales.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagen/robot02.png" alt="DISEÑO WEB PROFESIONAL">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aplicaciones.html">Aplicaciones</a></li>
+                <li><a href="tutoriales.html">Tutoriales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#">Reserva tu curso</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="tutorials">
+            <h1>Tutoriales de HTML, CSS y JavaScript</h1>
+            <div class="tutorials-container">
+                <div class="tutorial">
+                    <h2>HTML</h2>
+                    <img src="imagen/pexels-pixabay-270404.jpg" alt="HTML Tutorial">
+                    <p>HTML, o HyperText Markup Language, es el lenguaje de marcado estándar para documentos diseñados para ser presentados en un navegador web. Es fundamental para la creación de páginas web, ya que define la estructura de los contenidos. Un documento HTML se compone de una serie de elementos y etiquetas que describen la estructura del contenido, tales como encabezados, párrafos, enlaces y listas. La estructura básica de un documento HTML incluye etiquetas como <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, y <code>&lt;body&gt;</code>, donde se organiza el contenido y se define el estilo mediante CSS.</p>
+                    <p>Las etiquetas HTML se utilizan para dar formato y estructura a los contenidos de una página. Por ejemplo, la etiqueta <code>&lt;h1&gt;</code> se usa para los encabezados principales, mientras que <code>&lt;p&gt;</code> se utiliza para los párrafos. HTML también permite la inclusión de atributos en las etiquetas para proporcionar información adicional, como <code>src</code> para imágenes o <code>href</code> para enlaces.</p>
+                </div>
+                <div class="tutorial">
+                    <h2>CSS</h2>
+                    <img src="imagen/pexels-negativespace-92905.jpg" alt="CSS Tutorial">
+                    <p>CSS, o Cascading Style Sheets, es un lenguaje de hojas de estilo que se utiliza para describir la presentación de un documento escrito en HTML. CSS controla el diseño y el formato visual de las páginas web, permitiendo a los desarrolladores definir estilos para diferentes elementos HTML. Con CSS, es posible cambiar colores, fuentes, márgenes y otros aspectos visuales de un documento.</p>
+                    <p>Un archivo CSS se vincula a un documento HTML mediante la etiqueta <code>&lt;link&gt;</code> en la sección <code>&lt;head&gt;</code> del documento. Los estilos en CSS se aplican utilizando selectores que pueden ser elementos, clases o identificadores. Por ejemplo, <code>p { color: blue; }</code> cambiará el color del texto de todos los párrafos a azul. CSS también permite la creación de diseños responsivos mediante media queries, que ajustan el estilo según el tamaño de la pantalla.</p>
+                </div>
+                <div class="tutorial">
+                    <h2>JavaScript</h2>
+                    <img src="imagen/pexels-markusspiske-177598.jpg" alt="JavaScript Tutorial">
+                    <p>JavaScript es un lenguaje de programación que se utiliza para añadir interactividad a las páginas web. A diferencia de HTML y CSS, que son lenguajes de marcado y estilo, JavaScript es un lenguaje de scripting que permite a los desarrolladores crear comportamientos dinámicos en el navegador. Esto incluye la manipulación del DOM (Document Object Model), la gestión de eventos y la comunicación con servidores mediante AJAX.</p>
+                    <p>JavaScript se puede insertar directamente en un documento HTML utilizando la etiqueta <code>&lt;script&gt;</code>, o se puede vincular mediante un archivo externo. Las funciones y métodos en JavaScript permiten realizar una amplia variedad de tareas, como validar formularios, crear animaciones y actualizar el contenido de la página sin necesidad de recargarla. JavaScript es fundamental para el desarrollo web moderno, y se utiliza junto con frameworks y bibliotecas como React, Angular y Vue.js para construir aplicaciones web complejas.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-section">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet commodo ligula eget dolor A.</p>
+            <div class="footer-links">
+                <a href="home.html">Inicio</a>
+                <a href="aplicaciones.html">Aplicaciones</a>
+                <a href="tutoriales.html">Tutoriales</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h4>EVALUACIÓN FINAL</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet commodo ligula eget dolor A.</p>
+        </div>
+        <div class="footer-section subscribe-section">
+            <h4>SUSCRÍBETE A NUESTRO CURSO</h4>
+            <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido.</p>
+            <button>ENVÍA DATOS</button>
+        </div>
+    </footer>
+    <script src="js/tutoriales.js"></script>
+</body>
+</html>
